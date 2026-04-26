@@ -1,0 +1,99 @@
+
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mD:/Desktop Files/STREETS-v3/streets-v3[39m
+
+ [31mΓ¥»[39m __tests__/prompts/generation.test.ts [2m([22m[2m16 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 12[2mms[22m[39m
+     [32mΓ£ô[39m includes the target concept name[32m 1[2mms[22m[39m
+     [32mΓ£ô[39m includes the topic[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m specifies the question type[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m requests JSON response format[32m 0[2mms[22m[39m
+[31m     [31m├ù[31m mentions previous concepts for context[39m[32m 7[2mms[22m[39m
+     [32mΓ£ô[39m includes difficulty level[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m has a version identifier[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m includes the question[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m includes the correct answer[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m includes the user answer[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m requests JSON response[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m includes error type classification[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m includes the topic[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m requests JSON response[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m includes the question and answers[32m 0[2mms[22m[39m
+     [32mΓ£ô[39m includes the concept[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m __tests__/validators/schemas.test.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ» Failed Tests 1 ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»
+
+ FAIL  __tests__/prompts/generation.test.ts > questionGeneration prompt > mentions previous concepts for context
+AssertionError: expected '\nYou are an expert educational diagnΓÇª' to contain 'Limits'
+
+- Expected
++ Received
+
+- Limits
++
++ You are an expert educational diagnostician and question designer. Generate a question that serves as an INVESTIGATIVE PROBE.
++
++ TOPIC: Calculus
++ CONCEPT: Derivatives
++ CURRENT DIFFICULTY: 5/10
++ USER PERSONA: Unknown (First Session)
++
++
++ PAST QUESTIONS (Do NOT Repeat):
++ None
++
++ Generate a question with:
++ 1. Clear testing objective (What specific skill/knowledge is tested?)
++ 2. Pre-defined deduction space (What different answer patterns reveal about the user)
++ 3. Appropriate difficulty for the user's persona
++ 4. INVESTIGATIVE VALUE - what will we learn regardless of correct/incorrect?
++
++ Respond in JSON format (no markdown):
++ {
++   "questionText": "The question to ask",
++   "questionType": "mcq",
++   "options": {"a": "Correct or strategically placed answer", "b": "Reveals specific misconception", "c": "Reveals different misconception", "d": "Reveals procedural vs conceptual confusion"},
++   "correctAnswer": "a|b|c|d",
++   "explanation": "Brief explanation",
++   "prerequisites": ["required", "prior", "knowledge"],
++   "objective": "What this question specifically tests (e.g. 'Test understanding of chain rule application')",
++   "competencyLevel": "remember|understand|apply|analyze|evaluate|create",
++   "investigativeValue": "What we will learn from ANY response to this question",
++   "deductionSpace": {
++     "expectedErrors": [
++       {
++         "pattern": "Description of a common wrong answer pattern",
++         "implies": "What choosing this reveals (e.g. 'Confuses derivative with integral')",
++         "errorType": "conceptual|procedural|careless|prerequisite_gap"
++       }
++     ],
++     "unexpectedPatterns": [
++       {
++         "description": "Unusual but insightful pattern",
++         "action": "flag_for_review|probe_deeper|record_insight"
++       }
++     ],
++     "futuresFeedback": {
++       "contentStyle": "visual|step-by-step|analogy",
++       "cognitiveLoad": "high|medium|low",
++       "engagementHint": "How to re-engage if struggling"
++     }
++   }
++ }
++
+
+ Γ¥» __tests__/prompts/generation.test.ts:44:24
+     42|     it('mentions previous concepts for context', () => {
+     43|         const prompt = PROMPTS.questionGeneration.template(defaultParaΓÇª
+     44|         expect(prompt).toContain('Limits')
+       |                        ^
+     45|     })
+     46| 
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1/1]ΓÄ»
+
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m1 passed[39m[22m[90m (2)[39m
+[2m      Tests [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m36 passed[39m[22m[90m (37)[39m
+[2m   Start at [22m 20:39:00
+[2m   Duration [22m 543ms[2m (transform 157ms, setup 0ms, import 302ms, tests 30ms, environment 0ms)[22m
+

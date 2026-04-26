@@ -1,0 +1,34 @@
+commit 87208b3dd76fe088e8a53f5bf34a5ba19629b2af
+Author: purepeepal <purepeepal@gmail.com>
+Date:   Wed Feb 25 11:18:32 2026 +0530
+
+    Backup of uncommitted changes from main
+
+ .../Knowledge-Vault/VAULT_INDEX.md                 |   10 +-
+ .../directives/2026-02-23_phased_execution_plan.md | 1580 ++++++++++++++++
+ .../directives/2026-02-23_unit_action_plan.md      | 1917 ++++++++++++++++++++
+ Build Documents/IMPLEMENTATION_STATUS.md           |   94 +
+ Build Documents/MODULE_ROADMAP.md                  |  229 +++
+ Build Documents/MONETIZATION_ROADMAP.md            |  111 ++
+ streets-v3/src/app/auth/login/page.tsx             |   12 +-
+ .../src/components/results/SelfPerceptionMap.tsx   |    2 +-
+ streets-v3/src/components/ui/ErrorBoundary.tsx     |   14 +-
+ streets-v3/src/lib/core/logger.ts                  |   12 +-
+ .../src/lib/domain/assessment/report-analysis.ts   |    2 +-
+ streets-v3/src/lib/domain/assessment/repository.ts |  237 +++
+ streets-v3/src/lib/domain/assessment/strategies.ts |  274 +++
+ .../src/lib/infrastructure/supabase/client.ts      |   34 +-
+ .../src/lib/infrastructure/supabase/middleware.ts  |   13 +-
+ streets-v3/src/lib/llm/prompts.ts                  |  897 ---------
+ streets-v3/src/lib/llm/prompts/assessment.ts       |   57 +-
+ streets-v3/src/lib/llm/prompts/chat.ts             |   12 +-
+ .../src/lib/llm/services/analysis.service.ts       |    4 +-
+ .../src/lib/llm/services/question.service.ts       |   86 +-
+ streets-v3/src/lib/llm/types.ts                    |  430 -----
+ streets-v3/src/lib/supabase/client.ts              |   34 +-
+ streets-v3/src/lib/supabase/middleware.ts          |   13 +-
+ streets-v3/src/middleware.ts                       |   38 -
+ streets-v3/src/proxy.ts                            |   20 +
+ streets-v3/src/types/database.ts                   |    1 +
+ .../20260224_fix_assessment_start_errors.sql       |   18 +
+ 27 files changed, 4711 insertions(+), 1440 deletions(-)

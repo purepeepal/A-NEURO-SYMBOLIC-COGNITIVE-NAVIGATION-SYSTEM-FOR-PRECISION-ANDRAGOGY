@@ -1,0 +1,16 @@
+web-1  | ▲ Next.js 16.1.6
+web-1  | - Local:         http://6e48dbbdcd16:3000
+web-1  | - Network:       http://6e48dbbdcd16:3000
+web-1  | 
+web-1  | ✓ Starting...
+web-1  | ✓ Ready in 107ms
+web-1  | Start Assessment Error: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+web-1  |     at h (.next/server/chunks/src_lib_llm_index_ts_c37a2363._.js:1:4744)
+web-1  |     at async d (.next/server/chunks/src_lib_llm_index_ts_c37a2363._.js:1:4559)
+web-1  |     at async _ (.next/server/chunks/src_lib_llm_index_ts_c37a2363._.js:1:10228)
+web-1  |     at async Object.execute (.next/server/chunks/src_lib_llm_index_ts_c37a2363._.js:69:2360)
+web-1  |     at async Object.processQueue (.next/server/chunks/src_lib_llm_index_ts_c37a2363._.js:69:722) {
+web-1  |   status: 404,
+web-1  |   statusText: 'Not Found',
+web-1  |   errorDetails: undefined
+web-1  | }

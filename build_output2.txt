@@ -1,0 +1,181 @@
+ Image streets-v3-web Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 748B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 2.45kB 0.0s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/node:20-alpine
+#3 ...
+
+#4 [auth] library/node:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:20-alpine
+#3 DONE 2.1s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 630B done
+#5 DONE 0.1s
+
+#6 [internal] load build context
+#6 DONE 0.0s
+
+#7 [base 1/1] FROM docker.io/library/node:20-alpine@sha256:09e2b3d9726018aecf269bd35325f46bf75046a643a66d28360ec71132750ec8
+#7 resolve docker.io/library/node:20-alpine@sha256:09e2b3d9726018aecf269bd35325f46bf75046a643a66d28360ec71132750ec8 0.0s done
+#7 CACHED
+
+#8 [builder 1/4] WORKDIR /app
+#8 CACHED
+
+#6 [internal] load build context
+#6 ...
+
+#9 [runner 2/8] RUN addgroup --system --gid 1001 nodejs
+#9 DONE 0.8s
+
+#6 [internal] load build context
+#6 ...
+
+#10 [runner 3/8] RUN adduser --system --uid 1001 nextjs
+#10 DONE 0.5s
+
+#6 [internal] load build context
+#6 transferring context: 1.31MB 1.2s done
+#6 DONE 1.4s
+
+#11 [deps 1/4] RUN apk add --no-cache libc6-compat
+#11 3.014 (1/3) Installing musl-obstack (1.2.3-r2)
+#11 3.101 (2/3) Installing libucontext (1.3.3-r0)
+#11 3.149 (3/3) Installing gcompat (1.1.0-r4)
+#11 3.207 OK: 11.0 MiB in 21 packages
+#11 DONE 3.3s
+
+#12 [deps 2/4] WORKDIR /app
+#12 DONE 0.1s
+
+#13 [deps 3/4] COPY package.json package-lock.json* ./
+#13 DONE 0.1s
+
+#14 [deps 4/4] RUN npm ci
+#14 4.788 npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+#14 74.74 
+#14 74.74 added 493 packages, and audited 494 packages in 1m
+#14 74.74 
+#14 74.74 163 packages are looking for funding
+#14 74.74   run `npm fund` for details
+#14 74.76 
+#14 74.76 5 vulnerabilities (1 moderate, 4 high)
+#14 74.76 
+#14 74.76 To address all issues, run:
+#14 74.76   npm audit fix
+#14 74.76 
+#14 74.76 Run `npm audit` for details.
+#14 74.77 npm notice
+#14 74.77 npm notice New major version of npm available! 10.8.2 -> 11.11.0
+#14 74.77 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.0
+#14 74.77 npm notice To update run: npm install -g npm@11.11.0
+#14 74.77 npm notice
+#14 DONE 81.0s
+
+#15 [builder 2/4] COPY --from=deps /app/node_modules ./node_modules
+#15 DONE 22.7s
+
+#16 [builder 3/4] COPY . .
+#16 DONE 0.4s
+
+#17 [builder 4/4] RUN npm run build
+#17 0.726 
+#17 0.726 > streets-v3@0.1.0 build
+#17 0.726 > next build
+#17 0.726 
+#17 1.709 Γû▓ Next.js 16.1.6 (Turbopack)
+#17 1.711 
+#17 1.753   Creating an optimized production build ...
+#17 11.22 Γ£ô Compiled successfully in 8.9s
+#17 11.22   Running TypeScript ...
+#17 18.02   Collecting page data using 7 workers ...
+#17 19.02 ΓÜá Using edge runtime on a page currently disables static generation for that page
+#17 19.03   Generating static pages using 7 workers (0/25) ...
+#17 19.19   Generating static pages using 7 workers (6/25) 
+#17 19.30   Generating static pages using 7 workers (12/25) 
+#17 19.51   Generating static pages using 7 workers (18/25) 
+#17 19.55 Γ£ô Generating static pages using 7 workers (25/25) in 515.9ms
+#17 19.56   Finalizing page optimization ...
+#17 20.39 
+#17 20.40 Route (app)
+#17 20.40 Γöî ╞Æ /
+#17 20.40 Γö£ Γùï /_not-found
+#17 20.40 Γö£ ╞Æ /api/assessment/[id]/report
+#17 20.40 Γö£ ╞Æ /api/assessment/[id]/report/stream
+#17 20.40 Γö£ ╞Æ /api/assessment/chat
+#17 20.40 Γö£ ╞Æ /api/assessment/evaluate
+#17 20.40 Γö£ ╞Æ /api/assessment/feedback
+#17 20.40 Γö£ ╞Æ /api/assessment/next
+#17 20.40 Γö£ ╞Æ /api/assessment/start
+#17 20.40 Γö£ ╞Æ /api/assessment/submit
+#17 20.40 Γö£ ╞Æ /api/assessment/subtopics
+#17 20.40 Γö£ ╞Æ /api/assessment/terminate
+#17 20.40 Γö£ ╞Æ /api/health
+#17 20.40 Γö£ ╞Æ /api/test-llm
+#17 20.40 Γö£ ╞Æ /api/user/assessments
+#17 20.40 Γö£ ╞Æ /api/v2/assessment/start
+#17 20.40 Γö£ ╞Æ /api/v2/assessment/submit
+#17 20.40 Γö£ ╞Æ /api/v2/assessment/telemetry
+#17 20.40 Γö£ Γùï /assessment
+#17 20.40 Γö£ ╞Æ /assessment/[id]
+#17 20.40 Γö£ ╞Æ /assessment/[id]/results
+#17 20.40 Γö£ Γùï /assessment/framing
+#17 20.40 Γö£ Γùï /assessment/self-assess
+#17 20.40 Γö£ Γùï /auth/login
+#17 20.40 Γö£ Γùï /dashboard
+#17 20.40 Γö£ Γùï /v2-assessment
+#17 20.40 Γöö Γùï /v2-assessment/session
+#17 20.40 
+#17 20.40 
+#17 20.40 ╞Æ Proxy (Middleware)
+#17 20.40 
+#17 20.40 Γùï  (Static)   prerendered as static content
+#17 20.40 ╞Æ  (Dynamic)  server-rendered on demand
+#17 20.40 
+#17 20.45 npm notice
+#17 20.45 npm notice New major version of npm available! 10.8.2 -> 11.11.0
+#17 20.45 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.0
+#17 20.45 npm notice To update run: npm install -g npm@11.11.0
+#17 20.45 npm notice
+#17 DONE 21.4s
+
+#18 [runner 4/8] COPY --from=builder /app/public ./public
+#18 DONE 0.1s
+
+#19 [runner 5/8] RUN mkdir .next
+#19 DONE 0.4s
+
+#20 [runner 6/8] RUN chown nextjs:nodejs .next
+#20 DONE 0.6s
+
+#21 [runner 7/8] COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+#21 DONE 2.1s
+
+#22 [runner 8/8] COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+#22 DONE 0.2s
+
+#23 exporting to image
+#23 exporting layers
+#23 exporting layers 3.6s done
+#23 exporting manifest sha256:aef423060770b225684ea569f90e1e0ba671d5971aa4cbf8777382fc1aa77f4f 0.0s done
+#23 exporting config sha256:b2edec1dd8f5ce7716bf2c64e46739d482ee8a4caadcf9c974f6d72d95abcf41 0.0s done
+#23 exporting attestation manifest sha256:750f2e4e6d7ed5ded5fb1c84a71b83843795582576de92dbd4011db1d096ffc6
+#23 exporting attestation manifest sha256:750f2e4e6d7ed5ded5fb1c84a71b83843795582576de92dbd4011db1d096ffc6 0.1s done
+#23 exporting manifest list sha256:a1315b530c7417e5f21125ae9b78e83838b59937e711db266feb0ac249e0169f 0.0s done
+#23 naming to docker.io/library/streets-v3-web:latest
+#23 naming to docker.io/library/streets-v3-web:latest 0.0s done
+#23 unpacking to docker.io/library/streets-v3-web:latest
+#23 unpacking to docker.io/library/streets-v3-web:latest 1.0s done
+#23 DONE 4.9s
+
+#24 resolving provenance for metadata file
+#24 DONE 0.1s
+ Image streets-v3-web Built 

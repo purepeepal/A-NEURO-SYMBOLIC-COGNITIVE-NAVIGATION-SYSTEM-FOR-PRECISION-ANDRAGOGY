@@ -1,0 +1,28 @@
+services:
+  web:
+    container_name: streets-v3
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL}
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+    ports:
+      - "${PORT:-6001}:3000"
+    env_file:
+      - .env.local
+    environment:
+      - NODE_ENV=production
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+          cpus: "1.0"
+        reservations:
+          memory: 256m
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    restart: unless-stopped

@@ -1,0 +1,229 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F4F4F0;
+  /* Swiss Off-White */
+  --foreground: #111111;
+  --accent: #0000FF;
+  /* Electric Blue */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-space-grotesk);
+
+  /* Design System Tokens */
+  --color-surface: #F4F4F0;
+  --color-accent-green: #22c55e;
+  --color-accent-red: #ef4444;
+  --color-accent-yellow: #eab308;
+  --color-accent-blue: #3b82f6;
+
+  --shadow-brutal: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  --shadow-brutal-sm: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  --shadow-brutal-xs: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+  --shadow-brutal-pressed: 1px 1px 0px 0px rgba(0, 0, 0, 1);
+  --shadow-brutal-md: 3px 3px 0px 0px rgba(0, 0, 0, 1);
+  --shadow-brutal-md-muted: 3px 3px 0px 0px rgba(0, 0, 0, 0.3);
+  --shadow-brutal-hover: 12px 12px 0px 0px rgba(0, 0, 0, 1);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-space-grotesk), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Brutalist Overrides */
+* {
+  border-radius: 0 !important;
+  /* Sharp edges everywhere */
+}
+
+.brutalist-card {
+  border: 2px solid #000;
+  box-shadow: 6px 6px 0px 0px #000;
+  background: white;
+  transition: all 0.1s ease;
+}
+
+.brutalist-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0px 0px #000;
+}
+
+.brutalist-button {
+  border: 2px solid #000;
+  background: #000;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 1rem 2rem;
+  transition: all 0.1s;
+}
+
+.brutalist-button:hover {
+  background: white;
+  color: black;
+  box-shadow: 4px 4px 0px 0px #000;
+}
+
+.brutalist-input {
+  border: 2px solid #000;
+  background: white;
+  padding: 1rem;
+  font-family: var(--font-space-grotesk);
+  font-weight: 500;
+}
+
+.brutalist-input:focus {
+  outline: none;
+  background: #FFF;
+  box-shadow: 4px 4px 0px 0px #000;
+  border-color: var(--accent);
+}
+
+/* --- High Stimulation Animations --- */
+
+@keyframes glitch-anim {
+  0% {
+    transform: translate(0)
+  }
+
+  20% {
+    transform: translate(-2px, 2px)
+  }
+
+  40% {
+    transform: translate(-2px, -2px)
+  }
+
+  60% {
+    transform: translate(2px, 2px)
+  }
+
+  80% {
+    transform: translate(2px, -2px)
+  }
+
+  100% {
+    transform: translate(0)
+  }
+}
+
+@keyframes scan-bg {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 40px;
+  }
+}
+
+@keyframes blink-cursor {
+
+  0%,
+  100% {
+    border-right-color: transparent
+  }
+
+  50% {
+    border-right-color: #000;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.hover-glitch:hover {
+  animation: glitch-anim 0.2s cubic-bezier(.25, .46, .45, .94) both infinite;
+  background-color: black;
+  color: #fff;
+}
+
+.bg-scanning-grid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation: scan-bg 2s linear infinite;
+}
+
+.typewriter-text {
+  overflow: hidden;
+  border-right: .15em solid #000;
+  white-space: pre-wrap;
+  animation: blink-cursor .75s step-end infinite;
+}
+
+.animate-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 30s linear infinite;
+}
+
+/* ─── Accessibility: Focus Indicators ─── */
+:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[role="tab"]:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ─── Accessibility: Reduced Motion ─── */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-marquee,
+  .animate-ping,
+  .animate-pulse,
+  .animate-bounce,
+  .hover-glitch:hover,
+  .bg-scanning-grid,
+  .animate-slide-up {
+    animation: none !important;
+  }
+}
+
+/* ── KG Visualizer Animations ───────────────────────────────── */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out forwards;
+}

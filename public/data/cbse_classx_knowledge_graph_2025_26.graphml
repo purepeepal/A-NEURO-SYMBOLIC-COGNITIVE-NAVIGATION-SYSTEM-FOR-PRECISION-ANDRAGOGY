@@ -1,0 +1,2297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string"/>
+  <key id="d1" for="node" attr.name="type" attr.type="string"/>
+  <key id="d2" for="node" attr.name="subject" attr.type="string"/>
+  <key id="d3" for="node" attr.name="note" attr.type="string"/>
+  <key id="e0" for="edge" attr.name="relation" attr.type="string"/>
+  <key id="e1" for="edge" attr.name="weight" attr.type="double"/>
+  <key id="e2" for="edge" attr.name="rationale" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="root">
+      <data key="d0">CBSE Class X Curriculum (2025–26)</data>
+      <data key="d1">root</data>
+    </node>
+    <node id="math">
+      <data key="d0">Mathematics</data>
+      <data key="d1">subject</data>
+      <data key="d2">Mathematics</data>
+      <data key="d3">Chapter list inferred from standard CBSE Class X Mathematics (041); provided Maths_Sec_2025-26.pdf did not contain Class X unit list beyond prescribed books.</data>
+    </node>
+    <node id="sci">
+      <data key="d0">Science</data>
+      <data key="d1">subject</data>
+      <data key="d2">Science</data>
+      <data key="d3">Unit list extracted from Science_Sec_2025-26.pdf (Class X course structure).</data>
+    </node>
+    <node id="sst">
+      <data key="d0">Social Science</data>
+      <data key="d1">subject</data>
+      <data key="d2">Social Science</data>
+      <data key="d3">Chapter lists extracted from Social_Science_Sec_2025-26.pdf (Class X course structure).</data>
+    </node>
+    <node id="math.real_numbers">
+      <data key="d0">Real Numbers</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.polynomials">
+      <data key="d0">Polynomials</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.pair_linear_eq">
+      <data key="d0">Pair of Linear Equations in Two Variables</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.quadratic_eq">
+      <data key="d0">Quadratic Equations</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.arith_progressions">
+      <data key="d0">Arithmetic Progressions</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.triangles">
+      <data key="d0">Triangles (Similarity)</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.coordinate_geometry">
+      <data key="d0">Coordinate Geometry</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.trigonometry">
+      <data key="d0">Introduction to Trigonometry</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.trig_applications">
+      <data key="d0">Applications of Trigonometry (Heights &amp; Distances)</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.circles">
+      <data key="d0">Circles</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.constructions">
+      <data key="d0">Constructions</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.areas_related_circles">
+      <data key="d0">Areas Related to Circles</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.surface_area_volume">
+      <data key="d0">Surface Areas and Volumes</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.statistics">
+      <data key="d0">Statistics</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.probability">
+      <data key="d0">Probability</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.real_numbers.euclid">
+      <data key="d0">Euclid’s Division Lemma &amp; Algorithm</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.real_numbers.fundamental_theorem">
+      <data key="d0">Fundamental Theorem of Arithmetic</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.real_numbers.hcf_lcm">
+      <data key="d0">HCF &amp; LCM via prime factorisation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.real_numbers.irrationality">
+      <data key="d0">Irrational numbers &amp; proofs (√2, √3, √5)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.real_numbers.decimal_expansion">
+      <data key="d0">Decimal expansion of rational numbers</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.polynomials.zeros">
+      <data key="d0">Zeros of a polynomial</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.polynomials.factor_theorem">
+      <data key="d0">Relationship between zeros and coefficients</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.polynomials.factorization">
+      <data key="d0">Polynomial factorisation (quadratic polynomials)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.polynomials.graph">
+      <data key="d0">Graph of a polynomial (conceptual)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.pair_linear_eq.graphical">
+      <data key="d0">Graphical solution of linear equations</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.pair_linear_eq.algebraic">
+      <data key="d0">Algebraic solution (substitution/elimination)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.pair_linear_eq.consistency">
+      <data key="d0">Consistency: unique/no/infinite solutions</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.pair_linear_eq.word_problems">
+      <data key="d0">Word problems leading to linear systems</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.quadratic_eq.standard_form">
+      <data key="d0">Standard form ax²+bx+c=0</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.quadratic_eq.factorization">
+      <data key="d0">Solving by factorisation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.quadratic_eq.completing_square">
+      <data key="d0">Solving by completing the square</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.quadratic_eq.quadratic_formula">
+      <data key="d0">Quadratic formula</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.quadratic_eq.discriminant">
+      <data key="d0">Discriminant and nature of roots</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.quadratic_eq.word_problems">
+      <data key="d0">Word problems using quadratic equations</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.arith_progressions.definition">
+      <data key="d0">Arithmetic progression (AP): a, d</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.arith_progressions.nth_term">
+      <data key="d0">nth term: aₙ = a+(n−1)d</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.arith_progressions.sum">
+      <data key="d0">Sum of first n terms of an AP</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.arith_progressions.word_problems">
+      <data key="d0">Applications/word problems of AP</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.triangles.similarity">
+      <data key="d0">Similarity of triangles (AAA, SAS, SSS)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.triangles.bpt">
+      <data key="d0">Basic Proportionality Theorem (Thales)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.triangles.pythagoras">
+      <data key="d0">Pythagoras Theorem (and converse)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.triangles.area_similarity">
+      <data key="d0">Area ratio of similar triangles</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.coordinate_geometry.distance">
+      <data key="d0">Distance formula</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.coordinate_geometry.section">
+      <data key="d0">Section formula (internal division)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.coordinate_geometry.area_triangle">
+      <data key="d0">Area of a triangle using coordinates</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.trigonometry.trig_ratios">
+      <data key="d0">Trigonometric ratios (sin, cos, tan)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.trigonometry.standard_angles">
+      <data key="d0">Values at 0°, 30°, 45°, 60°, 90°</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.trigonometry.identities">
+      <data key="d0">Trigonometric identities</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.trigonometry.trig_ratios_reciprocal">
+      <data key="d0">sec, cosec, cot (as reciprocals)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.trig_applications.heights_distances">
+      <data key="d0">Heights and distances problems</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.trig_applications.elevation_depression">
+      <data key="d0">Angle of elevation/depression</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.trig_applications.modelling">
+      <data key="d0">Modelling real-world situations with trig</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.circles.tangent_radius">
+      <data key="d0">Tangent ⟂ radius at point of contact</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.circles.tangents_from_external">
+      <data key="d0">Tangents from an external point are equal</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.circles.num_tangents">
+      <data key="d0">Number of tangents from a point (inside/on/outside)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.constructions.divide_segment">
+      <data key="d0">Division of a line segment in a given ratio</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.constructions.tangent_circle">
+      <data key="d0">Construction of tangents to a circle</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.constructions.similar_triangles">
+      <data key="d0">Constructing similar triangles</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.areas_related_circles.circumference">
+      <data key="d0">Circumference of a circle</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.areas_related_circles.area_circle">
+      <data key="d0">Area of a circle</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.areas_related_circles.sector_segment">
+      <data key="d0">Areas of sectors and segments</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.areas_related_circles.composite_figures">
+      <data key="d0">Areas of combined plane figures</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.surface_area_volume.cube_cuboid">
+      <data key="d0">Surface area &amp; volume: cube/cuboid</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.surface_area_volume.cylinder">
+      <data key="d0">Surface area &amp; volume: cylinder</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.surface_area_volume.cone">
+      <data key="d0">Surface area &amp; volume: cone</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.surface_area_volume.sphere">
+      <data key="d0">Surface area &amp; volume: sphere/hemisphere</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.surface_area_volume.combinations">
+      <data key="d0">Combinations of solids</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.surface_area_volume.frustum">
+      <data key="d0">Frustum of a cone</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.statistics.mean_grouped">
+      <data key="d0">Mean of grouped data</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.statistics.median_grouped">
+      <data key="d0">Median of grouped data</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.statistics.mode_grouped">
+      <data key="d0">Mode of grouped data</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.statistics.ogive">
+      <data key="d0">Cumulative frequency curve (ogive)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.probability.classical">
+      <data key="d0">Classical probability: favourable/total outcomes</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.probability.empirical">
+      <data key="d0">Experimental probability (conceptual link)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="math.probability.events">
+      <data key="d0">Simple events and sample space</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mathematics</data>
+    </node>
+    <node id="sci.unit1">
+      <data key="d0">Unit I: Chemical Substances – Nature and Behaviour</data>
+      <data key="d1">unit</data>
+      <data key="d2">Science</data>
+      <data key="d3">Board marks weightage: 25</data>
+    </node>
+    <node id="sci.unit2">
+      <data key="d0">Unit II: World of Living</data>
+      <data key="d1">unit</data>
+      <data key="d2">Science</data>
+      <data key="d3">Board marks weightage: 25</data>
+    </node>
+    <node id="sci.unit3">
+      <data key="d0">Unit III: Natural Phenomena</data>
+      <data key="d1">unit</data>
+      <data key="d2">Science</data>
+      <data key="d3">Board marks weightage: 12</data>
+    </node>
+    <node id="sci.unit4">
+      <data key="d0">Unit IV: Effects of Current</data>
+      <data key="d1">unit</data>
+      <data key="d2">Science</data>
+      <data key="d3">Board marks weightage: 13</data>
+    </node>
+    <node id="sci.unit5">
+      <data key="d0">Unit V: Natural Resources</data>
+      <data key="d1">unit</data>
+      <data key="d2">Science</data>
+      <data key="d3">Board marks weightage: 5</data>
+    </node>
+    <node id="sci.chem.reactions">
+      <data key="d0">Chemical reactions &amp; equations</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.balancing">
+      <data key="d0">Balancing chemical equations</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.reaction_types">
+      <data key="d0">Reaction types: combination/decomposition/displacement/double displacement/precipitation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.energy_redox">
+      <data key="d0">Endothermic/exothermic; oxidation &amp; reduction</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.acids_bases">
+      <data key="d0">Acids, bases and salts (H⁺/OH⁻, indicators)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.ph_scale">
+      <data key="d0">pH scale (conceptual) &amp; its importance</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.neutralization">
+      <data key="d0">Neutralization and everyday applications</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.sodium_hydroxide">
+      <data key="d0">Sodium hydroxide: preparation &amp; uses</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.bleaching_powder">
+      <data key="d0">Bleaching powder: preparation &amp; uses</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.baking_soda">
+      <data key="d0">Baking soda &amp; washing soda: preparation &amp; uses</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.pop">
+      <data key="d0">Plaster of Paris: preparation &amp; uses</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.metals_nonmetals">
+      <data key="d0">Metals vs non-metals: properties</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.reactivity_series">
+      <data key="d0">Reactivity series</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.ionic_compounds">
+      <data key="d0">Ionic compounds: formation &amp; properties</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.metallurgy">
+      <data key="d0">Basic metallurgical processes</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.corrosion">
+      <data key="d0">Corrosion and prevention</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.covalent_bonds">
+      <data key="d0">Covalent bonds: formation &amp; properties</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.carbon_versatility">
+      <data key="d0">Versatile nature of carbon</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.hydrocarbons">
+      <data key="d0">Hydrocarbons: saturated/unsaturated; homologous series</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.nomenclature">
+      <data key="d0">Nomenclature: alkanes/alkenes/alkynes; functional groups</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.carbon_reactions">
+      <data key="d0">Carbon compounds reactions: combustion/oxidation/addition/substitution</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.ethanol_ethanoic">
+      <data key="d0">Ethanol &amp; ethanoic acid: properties and uses</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.chem.soaps_detergents">
+      <data key="d0">Soaps and detergents</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.living_being">
+      <data key="d0">Living beings: defining characteristics</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.nutrition">
+      <data key="d0">Nutrition in plants and animals</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.respiration">
+      <data key="d0">Respiration in plants and animals</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.transport">
+      <data key="d0">Transport of materials</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.excretion">
+      <data key="d0">Excretion</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.tropisms">
+      <data key="d0">Tropic movements in plants</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.plant_hormones">
+      <data key="d0">Plant hormones (intro)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.nervous_system">
+      <data key="d0">Nervous system: control and coordination</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.reflex_action">
+      <data key="d0">Voluntary/involuntary/reflex actions</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.animal_hormones">
+      <data key="d0">Animal hormones (chemical coordination)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.reproduction">
+      <data key="d0">Reproduction: asexual and sexual (plants/animals)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.reproductive_health">
+      <data key="d0">Reproductive health; family planning methods</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.hiv_aids">
+      <data key="d0">Safe sex vs HIV/AIDS awareness</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.womens_health">
+      <data key="d0">Child bearing and women’s health</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.heredity">
+      <data key="d0">Heredity and inheritance</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.mendel">
+      <data key="d0">Mendel’s laws (intro)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.sex_determination">
+      <data key="d0">Sex determination (brief)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.bio.evolution_intro">
+      <data key="d0">Evolution (brief introduction)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.reflection_curved">
+      <data key="d0">Reflection by curved surfaces</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.spherical_mirrors">
+      <data key="d0">Spherical mirrors: image formation &amp; terms</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.mirror_formula">
+      <data key="d0">Mirror formula (no derivation)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.magnification_mirrors">
+      <data key="d0">Magnification (mirrors)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.refraction_laws">
+      <data key="d0">Refraction: laws &amp; refractive index</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.spherical_lenses">
+      <data key="d0">Spherical lenses: image formation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.lens_formula">
+      <data key="d0">Lens formula (no derivation)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.magnification_lenses">
+      <data key="d0">Magnification &amp; power of a lens</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.human_eye">
+      <data key="d0">Human eye: functioning; defects and corrections</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.mirrors_lenses_apps">
+      <data key="d0">Applications of mirrors and lenses</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.prism_dispersion">
+      <data key="d0">Prism: refraction and dispersion</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.phy.scattering">
+      <data key="d0">Scattering of light; daily-life applications</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.elec.current_pd">
+      <data key="d0">Electric current &amp; potential difference</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.elec.ohms_law">
+      <data key="d0">Ohm’s law</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.elec.resistance">
+      <data key="d0">Resistance &amp; resistivity; factors affecting resistance</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.elec.series_parallel">
+      <data key="d0">Series &amp; parallel combinations of resistors</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.elec.heating_effect">
+      <data key="d0">Heating effect of current; applications</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.elec.power">
+      <data key="d0">Electric power; relations among P, V, I, R</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.mag.field_lines">
+      <data key="d0">Magnetic field &amp; field lines</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.mag.field_due_current">
+      <data key="d0">Magnetic field due to current in conductor/coil/solenoid</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.mag.force_on_conductor">
+      <data key="d0">Force on current-carrying conductor; Fleming’s Left Hand Rule</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.mag.dc_ac">
+      <data key="d0">DC and AC; frequency; advantage of AC over DC</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.mag.domestic_circuits">
+      <data key="d0">Domestic electric circuits</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.env.ecosystem">
+      <data key="d0">Ecosystem</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.env.environmental_problems">
+      <data key="d0">Environmental problems (pollution etc.)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.env.ozone_depletion">
+      <data key="d0">Ozone depletion</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.env.waste_management">
+      <data key="d0">Waste production &amp; solutions</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sci.env.biodegradable">
+      <data key="d0">Biodegradable vs non-biodegradable substances</data>
+      <data key="d1">concept</data>
+      <data key="d2">Science</data>
+    </node>
+    <node id="sst.history">
+      <data key="d0">History: India and the Contemporary World-II</data>
+      <data key="d1">domain</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geography">
+      <data key="d0">Geography: Contemporary India-II</data>
+      <data key="d1">domain</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.political_science">
+      <data key="d0">Political Science: Democratic Politics-II</data>
+      <data key="d1">domain</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.economics">
+      <data key="d0">Economics: Understanding Economic Development</data>
+      <data key="d1">domain</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.nationalism_europe">
+      <data key="d0">The Rise of Nationalism in Europe</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.nationalism_india">
+      <data key="d0">Nationalism in India</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.global_world">
+      <data key="d0">The Making of a Global World</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.industrialisation">
+      <data key="d0">The Age of Industrialisation</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.print_culture">
+      <data key="d0">Print Culture and the Modern World</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.resources_development">
+      <data key="d0">Resources and Development</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.forest_wildlife">
+      <data key="d0">Forest and Wildlife Resources</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.water_resources">
+      <data key="d0">Water Resources</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.agriculture">
+      <data key="d0">Agriculture</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.minerals_energy">
+      <data key="d0">Minerals and Energy Resources</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.manufacturing">
+      <data key="d0">Manufacturing Industries</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.lifelines">
+      <data key="d0">Lifelines of National Economy</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.power_sharing">
+      <data key="d0">Power-sharing</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.federalism">
+      <data key="d0">Federalism</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.gender_religion_caste">
+      <data key="d0">Gender, Religion and Caste</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.political_parties">
+      <data key="d0">Political Parties</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.outcomes_democracy">
+      <data key="d0">Outcomes of Democracy</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.development">
+      <data key="d0">Development</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.sectors">
+      <data key="d0">Sectors of the Indian Economy</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.money_credit">
+      <data key="d0">Money and Credit</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.globalisation">
+      <data key="d0">Globalisation and the Indian Economy</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.consumer_rights">
+      <data key="d0">Consumer Rights (Project Work)</data>
+      <data key="d1">chapter</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ne.french_revolution">
+      <data key="d0">French Revolution and idea of nation-state</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ne.liberalism">
+      <data key="d0">Liberalism, democracy, and nationalism</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ne.unification">
+      <data key="d0">Unification of Italy and Germany; nation-building</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ne.symbols">
+      <data key="d0">National symbols and allegories</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ne.ww1">
+      <data key="d0">Nationalism and the First World War (overview)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ni.gandhi">
+      <data key="d0">Gandhian mass movements (overview)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ni.non_cooperation">
+      <data key="d0">Non-Cooperation Movement</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ni.civil_disobedience">
+      <data key="d0">Civil Disobedience Movement</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ni.swadeshi">
+      <data key="d0">Swadeshi and boycott; constructive programmes</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ni.identity">
+      <data key="d0">National identity, unity and diversity</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.gw.pre_modern_world">
+      <data key="d0">Pre-modern world: trade, travel, cultural exchange</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.gw.conquest_disease_trade">
+      <data key="d0">Conquest, disease and trade (early global links)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.gw.nineteenth_century">
+      <data key="d0">The nineteenth century (1815–1914): integration and migration</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.gw.bretton_woods">
+      <data key="d0">Bretton Woods institutions and post-war economy</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.gw.globalisation">
+      <data key="d0">Beginning of modern ‘globalisation’ (overview)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ind.proto_industry">
+      <data key="d0">Proto-industrialisation and factory system</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ind.industrial_capital">
+      <data key="d0">Industrial capital, entrepreneurship, labour</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ind.textiles_india">
+      <data key="d0">Industrialisation in India (textiles and beyond)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.ind.working_conditions">
+      <data key="d0">Work, workers and living conditions (overview)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.pc.printing_press">
+      <data key="d0">Printing press and spread of ideas</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.pc.reading_public">
+      <data key="d0">Literacy, reading public, and new forms of print</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.pc.censorship">
+      <data key="d0">Censorship and print in colonial India</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.hist.pc.nationalism">
+      <data key="d0">Print and the growth of nationalism</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.rd.types_resources">
+      <data key="d0">Types of resources; development and sustainability</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.rd.land_resources">
+      <data key="d0">Land resources and land-use patterns</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.rd.soils">
+      <data key="d0">Soils: classification and conservation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.rd.resource_planning">
+      <data key="d0">Resource planning and conservation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.fw.biodiversity">
+      <data key="d0">Biodiversity and ecosystem services</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.fw.deforestation">
+      <data key="d0">Deforestation: causes and impacts</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.fw.conservation">
+      <data key="d0">Conservation strategies and protected areas</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.wr.hydrological_cycle">
+      <data key="d0">Hydrological cycle and freshwater availability</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.wr.dams">
+      <data key="d0">Multipurpose river projects and dams</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.wr.water_scarcity">
+      <data key="d0">Water scarcity and conservation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.wr.rainwater_harvesting">
+      <data key="d0">Rainwater harvesting and watershed management</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.ag.crop_seasons">
+      <data key="d0">Cropping seasons (Kharif/Rabi/Zaid)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.ag.irrigation">
+      <data key="d0">Irrigation, inputs and modern farming methods</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.ag.farm_reforms">
+      <data key="d0">Institutional reforms and agricultural development</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.me.minerals">
+      <data key="d0">Minerals: types and distribution (conceptual)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.me.energy_sources">
+      <data key="d0">Conventional and non-conventional energy sources</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.me.conservation">
+      <data key="d0">Energy conservation and sustainable use</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.mi.factors">
+      <data key="d0">Industrial location factors (raw material, power, labour, market)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.mi.industries_types">
+      <data key="d0">Agro-based, mineral-based and other industries</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.mi.impacts">
+      <data key="d0">Industrial pollution and mitigation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.ln.transport">
+      <data key="d0">Transport: roadways, railways, pipelines, waterways, airways</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.ln.communication">
+      <data key="d0">Communication networks</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.geo.ln.trade_tourism">
+      <data key="d0">International trade and tourism</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.ps.forms">
+      <data key="d0">Forms of power-sharing (horizontal/vertical/among groups)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.ps.why">
+      <data key="d0">Why power-sharing is desirable in democracy</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.fed.division_powers">
+      <data key="d0">Division of powers and levels of government</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.fed.decentralisation">
+      <data key="d0">Decentralisation: Panchayati Raj and municipalities</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.grc.social_divisions">
+      <data key="d0">Social divisions and their political impact</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.grc.gender">
+      <data key="d0">Gender and political participation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.grc.communalism">
+      <data key="d0">Religion, communalism and politics</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.grc.caste">
+      <data key="d0">Caste inequalities and politics</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.pp.functions">
+      <data key="d0">Functions of political parties</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.pp.party_systems">
+      <data key="d0">Party systems and national/regional parties</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.pp.challenges">
+      <data key="d0">Challenges to political parties; reforms (overview)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.od.accountability">
+      <data key="d0">Accountability, responsiveness and legitimacy</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.od.economic_outcomes">
+      <data key="d0">Economic outcomes and inequality (overview)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.pol.od.dignity_freedom">
+      <data key="d0">Dignity and freedom of citizens</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.dev.indicators">
+      <data key="d0">Development indicators (income, health, education)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.dev.hdi_sustainability">
+      <data key="d0">Human Development and sustainability (overview)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.dev.public_facilities">
+      <data key="d0">Public facilities and quality of life</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.sec.primary_secondary_tertiary">
+      <data key="d0">Primary/secondary/tertiary sectors</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.sec.employment">
+      <data key="d0">Employment patterns; organised/unorganised sectors</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.sec.public_private">
+      <data key="d0">Public vs private sector</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.mc.money">
+      <data key="d0">Money as medium of exchange</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.mc.banks">
+      <data key="d0">Banks: deposits, loans and interest</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.mc.credit_terms">
+      <data key="d0">Credit and terms of credit</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.mc.shg">
+      <data key="d0">Self-Help Groups (SHGs) and microcredit</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.glob.what">
+      <data key="d0">What is globalisation?</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.glob.factors">
+      <data key="d0">Factors enabling globalisation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.glob.mnc_production">
+      <data key="d0">MNCs and production across countries</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.glob.wto">
+      <data key="d0">World Trade Organisation (WTO)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.glob.fair">
+      <data key="d0">Struggle for a fair globalisation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.cr.rights">
+      <data key="d0">Consumer rights and responsibilities</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.cr.redressal">
+      <data key="d0">Consumer redressal mechanisms</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <node id="sst.eco.cr.standards">
+      <data key="d0">Standardisation and certification marks (overview)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Social Science</data>
+    </node>
+    <edge id="e0" source="root" target="math">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e1" source="root" target="sci">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e2" source="root" target="sst">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e3" source="math" target="math.real_numbers">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e4" source="math" target="math.polynomials">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e5" source="math" target="math.pair_linear_eq">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e6" source="math" target="math.quadratic_eq">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e7" source="math" target="math.arith_progressions">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e8" source="math" target="math.triangles">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e9" source="math" target="math.coordinate_geometry">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e10" source="math" target="math.trigonometry">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e11" source="math" target="math.trig_applications">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e12" source="math" target="math.circles">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e13" source="math" target="math.constructions">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e14" source="math" target="math.areas_related_circles">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e15" source="math" target="math.surface_area_volume">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e16" source="math" target="math.statistics">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e17" source="math" target="math.probability">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e18" source="math.real_numbers" target="math.real_numbers.euclid">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e19" source="math.real_numbers" target="math.real_numbers.fundamental_theorem">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e20" source="math.real_numbers" target="math.real_numbers.hcf_lcm">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e21" source="math.real_numbers" target="math.real_numbers.irrationality">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e22" source="math.real_numbers" target="math.real_numbers.decimal_expansion">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e23" source="math.polynomials" target="math.polynomials.zeros">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e24" source="math.polynomials" target="math.polynomials.factor_theorem">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e25" source="math.polynomials" target="math.polynomials.factorization">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e26" source="math.polynomials" target="math.polynomials.graph">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e27" source="math.pair_linear_eq" target="math.pair_linear_eq.graphical">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e28" source="math.pair_linear_eq" target="math.pair_linear_eq.algebraic">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e29" source="math.pair_linear_eq" target="math.pair_linear_eq.consistency">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e30" source="math.pair_linear_eq" target="math.pair_linear_eq.word_problems">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e31" source="math.quadratic_eq" target="math.quadratic_eq.standard_form">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e32" source="math.quadratic_eq" target="math.quadratic_eq.factorization">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e33" source="math.quadratic_eq" target="math.quadratic_eq.completing_square">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e34" source="math.quadratic_eq" target="math.quadratic_eq.quadratic_formula">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e35" source="math.quadratic_eq" target="math.quadratic_eq.discriminant">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e36" source="math.quadratic_eq" target="math.quadratic_eq.word_problems">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e37" source="math.arith_progressions" target="math.arith_progressions.definition">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e38" source="math.arith_progressions" target="math.arith_progressions.nth_term">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e39" source="math.arith_progressions" target="math.arith_progressions.sum">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e40" source="math.arith_progressions" target="math.arith_progressions.word_problems">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e41" source="math.triangles" target="math.triangles.similarity">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e42" source="math.triangles" target="math.triangles.bpt">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e43" source="math.triangles" target="math.triangles.pythagoras">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e44" source="math.triangles" target="math.triangles.area_similarity">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e45" source="math.coordinate_geometry" target="math.coordinate_geometry.distance">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e46" source="math.coordinate_geometry" target="math.coordinate_geometry.section">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e47" source="math.coordinate_geometry" target="math.coordinate_geometry.area_triangle">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e48" source="math.trigonometry" target="math.trigonometry.trig_ratios">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e49" source="math.trigonometry" target="math.trigonometry.standard_angles">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e50" source="math.trigonometry" target="math.trigonometry.identities">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e51" source="math.trigonometry" target="math.trigonometry.trig_ratios_reciprocal">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e52" source="math.trig_applications" target="math.trig_applications.heights_distances">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e53" source="math.trig_applications" target="math.trig_applications.elevation_depression">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e54" source="math.trig_applications" target="math.trig_applications.modelling">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e55" source="math.circles" target="math.circles.tangent_radius">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e56" source="math.circles" target="math.circles.tangents_from_external">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e57" source="math.circles" target="math.circles.num_tangents">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e58" source="math.constructions" target="math.constructions.divide_segment">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e59" source="math.constructions" target="math.constructions.tangent_circle">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e60" source="math.constructions" target="math.constructions.similar_triangles">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e61" source="math.areas_related_circles" target="math.areas_related_circles.circumference">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e62" source="math.areas_related_circles" target="math.areas_related_circles.area_circle">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e63" source="math.areas_related_circles" target="math.areas_related_circles.sector_segment">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e64" source="math.areas_related_circles" target="math.areas_related_circles.composite_figures">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e65" source="math.surface_area_volume" target="math.surface_area_volume.cube_cuboid">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e66" source="math.surface_area_volume" target="math.surface_area_volume.cylinder">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e67" source="math.surface_area_volume" target="math.surface_area_volume.cone">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e68" source="math.surface_area_volume" target="math.surface_area_volume.sphere">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e69" source="math.surface_area_volume" target="math.surface_area_volume.combinations">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e70" source="math.surface_area_volume" target="math.surface_area_volume.frustum">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e71" source="math.statistics" target="math.statistics.mean_grouped">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e72" source="math.statistics" target="math.statistics.median_grouped">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e73" source="math.statistics" target="math.statistics.mode_grouped">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e74" source="math.statistics" target="math.statistics.ogive">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e75" source="math.probability" target="math.probability.classical">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e76" source="math.probability" target="math.probability.empirical">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e77" source="math.probability" target="math.probability.events">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e78" source="math.real_numbers" target="math.polynomials">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.600</data>
+      <data key="e2">Number properties support algebraic manipulation</data>
+    </edge>
+    <edge id="e79" source="math.polynomials" target="math.pair_linear_eq">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.500</data>
+      <data key="e2">Algebraic expressions underpin equation solving</data>
+    </edge>
+    <edge id="e80" source="math.pair_linear_eq" target="math.quadratic_eq">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.400</data>
+      <data key="e2">Equation-solving strategies generalize to quadratics</data>
+    </edge>
+    <edge id="e81" source="math.triangles" target="math.trigonometry">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.800</data>
+      <data key="e2">Trigonometry is based on similarity in right triangles</data>
+    </edge>
+    <edge id="e82" source="math.trigonometry" target="math.trig_applications">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.900</data>
+      <data key="e2">Applications depend on trig ratios and identities</data>
+    </edge>
+    <edge id="e83" source="math.coordinate_geometry" target="math.statistics">
+      <data key="e0">related_to</data>
+      <data key="e1">0.300</data>
+      <data key="e2">Coordinate graphs support data visualization</data>
+    </edge>
+    <edge id="e84" source="math.circles" target="math.areas_related_circles">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.700</data>
+      <data key="e2">Circle measures needed for areas of sectors/segments</data>
+    </edge>
+    <edge id="e85" source="math.areas_related_circles" target="math.surface_area_volume">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.500</data>
+      <data key="e2">Area concepts extend to surface area of solids</data>
+    </edge>
+    <edge id="e86" source="math.statistics" target="math.probability">
+      <data key="e0">related_to</data>
+      <data key="e1">0.400</data>
+      <data key="e2">Data interpretation supports probability reasoning</data>
+    </edge>
+    <edge id="e87" source="sci" target="sci.unit1">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e88" source="sci" target="sci.unit2">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e89" source="sci" target="sci.unit3">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e90" source="sci" target="sci.unit4">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e91" source="sci" target="sci.unit5">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e92" source="sci.unit1" target="sci.chem.reactions">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e93" source="sci.unit1" target="sci.chem.balancing">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e94" source="sci.unit1" target="sci.chem.reaction_types">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e95" source="sci.unit1" target="sci.chem.energy_redox">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e96" source="sci.unit1" target="sci.chem.acids_bases">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e97" source="sci.unit1" target="sci.chem.ph_scale">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e98" source="sci.unit1" target="sci.chem.neutralization">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e99" source="sci.unit1" target="sci.chem.sodium_hydroxide">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e100" source="sci.unit1" target="sci.chem.bleaching_powder">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e101" source="sci.unit1" target="sci.chem.baking_soda">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e102" source="sci.unit1" target="sci.chem.pop">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e103" source="sci.unit1" target="sci.chem.metals_nonmetals">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e104" source="sci.unit1" target="sci.chem.reactivity_series">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e105" source="sci.unit1" target="sci.chem.ionic_compounds">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e106" source="sci.unit1" target="sci.chem.metallurgy">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e107" source="sci.unit1" target="sci.chem.corrosion">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e108" source="sci.unit1" target="sci.chem.covalent_bonds">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e109" source="sci.unit1" target="sci.chem.carbon_versatility">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e110" source="sci.unit1" target="sci.chem.hydrocarbons">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e111" source="sci.unit1" target="sci.chem.nomenclature">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e112" source="sci.unit1" target="sci.chem.carbon_reactions">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e113" source="sci.unit1" target="sci.chem.ethanol_ethanoic">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e114" source="sci.unit1" target="sci.chem.soaps_detergents">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e115" source="sci.unit2" target="sci.bio.living_being">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e116" source="sci.unit2" target="sci.bio.nutrition">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e117" source="sci.unit2" target="sci.bio.respiration">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e118" source="sci.unit2" target="sci.bio.transport">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e119" source="sci.unit2" target="sci.bio.excretion">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e120" source="sci.unit2" target="sci.bio.tropisms">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e121" source="sci.unit2" target="sci.bio.plant_hormones">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e122" source="sci.unit2" target="sci.bio.nervous_system">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e123" source="sci.unit2" target="sci.bio.reflex_action">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e124" source="sci.unit2" target="sci.bio.animal_hormones">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e125" source="sci.unit2" target="sci.bio.reproduction">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e126" source="sci.unit2" target="sci.bio.reproductive_health">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e127" source="sci.unit2" target="sci.bio.hiv_aids">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e128" source="sci.unit2" target="sci.bio.womens_health">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e129" source="sci.unit2" target="sci.bio.heredity">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e130" source="sci.unit2" target="sci.bio.mendel">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e131" source="sci.unit2" target="sci.bio.sex_determination">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e132" source="sci.unit2" target="sci.bio.evolution_intro">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e133" source="sci.unit3" target="sci.phy.reflection_curved">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e134" source="sci.unit3" target="sci.phy.spherical_mirrors">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e135" source="sci.unit3" target="sci.phy.mirror_formula">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e136" source="sci.unit3" target="sci.phy.magnification_mirrors">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e137" source="sci.unit3" target="sci.phy.refraction_laws">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e138" source="sci.unit3" target="sci.phy.spherical_lenses">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e139" source="sci.unit3" target="sci.phy.lens_formula">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e140" source="sci.unit3" target="sci.phy.magnification_lenses">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e141" source="sci.unit3" target="sci.phy.human_eye">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e142" source="sci.unit3" target="sci.phy.mirrors_lenses_apps">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e143" source="sci.unit3" target="sci.phy.prism_dispersion">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e144" source="sci.unit3" target="sci.phy.scattering">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e145" source="sci.unit4" target="sci.elec.current_pd">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e146" source="sci.unit4" target="sci.elec.ohms_law">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e147" source="sci.unit4" target="sci.elec.resistance">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e148" source="sci.unit4" target="sci.elec.series_parallel">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e149" source="sci.unit4" target="sci.elec.heating_effect">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e150" source="sci.unit4" target="sci.elec.power">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e151" source="sci.unit4" target="sci.mag.field_lines">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e152" source="sci.unit4" target="sci.mag.field_due_current">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e153" source="sci.unit4" target="sci.mag.force_on_conductor">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e154" source="sci.unit4" target="sci.mag.dc_ac">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e155" source="sci.unit4" target="sci.mag.domestic_circuits">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e156" source="sci.unit5" target="sci.env.ecosystem">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e157" source="sci.unit5" target="sci.env.environmental_problems">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e158" source="sci.unit5" target="sci.env.ozone_depletion">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e159" source="sci.unit5" target="sci.env.waste_management">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e160" source="sci.unit5" target="sci.env.biodegradable">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e161" source="sci.chem.reactions" target="sci.chem.acids_bases">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.400</data>
+      <data key="e2">Reaction understanding supports acid-base reactions</data>
+    </edge>
+    <edge id="e162" source="sci.chem.metals_nonmetals" target="sci.chem.reactivity_series">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.700</data>
+      <data key="e2">Reactivity series derived from metal reactivity</data>
+    </edge>
+    <edge id="e163" source="sci.chem.ionic_compounds" target="sci.chem.metallurgy">
+      <data key="e0">related_to</data>
+      <data key="e1">0.300</data>
+      <data key="e2">Metal extraction relates to compound formation</data>
+    </edge>
+    <edge id="e164" source="sci.bio.nutrition" target="sci.bio.respiration">
+      <data key="e0">related_to</data>
+      <data key="e1">0.300</data>
+      <data key="e2">Energy flow links nutrition and respiration</data>
+    </edge>
+    <edge id="e165" source="sci.bio.nervous_system" target="sci.bio.reflex_action">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.700</data>
+      <data key="e2">Reflexes explained via nervous pathways</data>
+    </edge>
+    <edge id="e166" source="sci.phy.refraction_laws" target="sci.phy.spherical_lenses">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.800</data>
+      <data key="e2">Lens behavior depends on refraction</data>
+    </edge>
+    <edge id="e167" source="sci.elec.current_pd" target="sci.elec.ohms_law">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.900</data>
+      <data key="e2">Ohm’s law relates V, I, R</data>
+    </edge>
+    <edge id="e168" source="sci.elec.resistance" target="sci.elec.series_parallel">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.700</data>
+      <data key="e2">Circuit combinations rely on resistance concept</data>
+    </edge>
+    <edge id="e169" source="sci.mag.field_lines" target="sci.mag.field_due_current">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.700</data>
+      <data key="e2">Field lines underpin current-generated fields</data>
+    </edge>
+    <edge id="e170" source="sst" target="sst.history">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e171" source="sst" target="sst.geography">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e172" source="sst" target="sst.political_science">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e173" source="sst" target="sst.economics">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e174" source="sst.history" target="sst.hist.nationalism_europe">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e175" source="sst.history" target="sst.hist.nationalism_india">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e176" source="sst.history" target="sst.hist.global_world">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e177" source="sst.history" target="sst.hist.industrialisation">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e178" source="sst.history" target="sst.hist.print_culture">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e179" source="sst.geography" target="sst.geo.resources_development">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e180" source="sst.geography" target="sst.geo.forest_wildlife">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e181" source="sst.geography" target="sst.geo.water_resources">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e182" source="sst.geography" target="sst.geo.agriculture">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e183" source="sst.geography" target="sst.geo.minerals_energy">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e184" source="sst.geography" target="sst.geo.manufacturing">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e185" source="sst.geography" target="sst.geo.lifelines">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e186" source="sst.political_science" target="sst.pol.power_sharing">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e187" source="sst.political_science" target="sst.pol.federalism">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e188" source="sst.political_science" target="sst.pol.gender_religion_caste">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e189" source="sst.political_science" target="sst.pol.political_parties">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e190" source="sst.political_science" target="sst.pol.outcomes_democracy">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e191" source="sst.economics" target="sst.eco.development">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e192" source="sst.economics" target="sst.eco.sectors">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e193" source="sst.economics" target="sst.eco.money_credit">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e194" source="sst.economics" target="sst.eco.globalisation">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e195" source="sst.economics" target="sst.eco.consumer_rights">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e196" source="sst.hist.nationalism_europe" target="sst.hist.ne.french_revolution">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e197" source="sst.hist.nationalism_europe" target="sst.hist.ne.liberalism">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e198" source="sst.hist.nationalism_europe" target="sst.hist.ne.unification">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e199" source="sst.hist.nationalism_europe" target="sst.hist.ne.symbols">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e200" source="sst.hist.nationalism_europe" target="sst.hist.ne.ww1">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e201" source="sst.hist.nationalism_india" target="sst.hist.ni.gandhi">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e202" source="sst.hist.nationalism_india" target="sst.hist.ni.non_cooperation">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e203" source="sst.hist.nationalism_india" target="sst.hist.ni.civil_disobedience">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e204" source="sst.hist.nationalism_india" target="sst.hist.ni.swadeshi">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e205" source="sst.hist.nationalism_india" target="sst.hist.ni.identity">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e206" source="sst.hist.global_world" target="sst.hist.gw.pre_modern_world">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e207" source="sst.hist.global_world" target="sst.hist.gw.conquest_disease_trade">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e208" source="sst.hist.global_world" target="sst.hist.gw.nineteenth_century">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e209" source="sst.hist.global_world" target="sst.hist.gw.bretton_woods">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e210" source="sst.hist.global_world" target="sst.hist.gw.globalisation">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e211" source="sst.hist.industrialisation" target="sst.hist.ind.proto_industry">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e212" source="sst.hist.industrialisation" target="sst.hist.ind.industrial_capital">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e213" source="sst.hist.industrialisation" target="sst.hist.ind.textiles_india">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e214" source="sst.hist.industrialisation" target="sst.hist.ind.working_conditions">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e215" source="sst.hist.print_culture" target="sst.hist.pc.printing_press">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e216" source="sst.hist.print_culture" target="sst.hist.pc.reading_public">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e217" source="sst.hist.print_culture" target="sst.hist.pc.censorship">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e218" source="sst.hist.print_culture" target="sst.hist.pc.nationalism">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e219" source="sst.geo.resources_development" target="sst.geo.rd.types_resources">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e220" source="sst.geo.resources_development" target="sst.geo.rd.land_resources">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e221" source="sst.geo.resources_development" target="sst.geo.rd.soils">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e222" source="sst.geo.resources_development" target="sst.geo.rd.resource_planning">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e223" source="sst.geo.forest_wildlife" target="sst.geo.fw.biodiversity">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e224" source="sst.geo.forest_wildlife" target="sst.geo.fw.deforestation">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e225" source="sst.geo.forest_wildlife" target="sst.geo.fw.conservation">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e226" source="sst.geo.water_resources" target="sst.geo.wr.hydrological_cycle">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e227" source="sst.geo.water_resources" target="sst.geo.wr.dams">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e228" source="sst.geo.water_resources" target="sst.geo.wr.water_scarcity">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e229" source="sst.geo.water_resources" target="sst.geo.wr.rainwater_harvesting">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e230" source="sst.geo.agriculture" target="sst.geo.ag.crop_seasons">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e231" source="sst.geo.agriculture" target="sst.geo.ag.irrigation">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e232" source="sst.geo.agriculture" target="sst.geo.ag.farm_reforms">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e233" source="sst.geo.minerals_energy" target="sst.geo.me.minerals">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e234" source="sst.geo.minerals_energy" target="sst.geo.me.energy_sources">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e235" source="sst.geo.minerals_energy" target="sst.geo.me.conservation">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e236" source="sst.geo.manufacturing" target="sst.geo.mi.factors">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e237" source="sst.geo.manufacturing" target="sst.geo.mi.industries_types">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e238" source="sst.geo.manufacturing" target="sst.geo.mi.impacts">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e239" source="sst.geo.lifelines" target="sst.geo.ln.transport">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e240" source="sst.geo.lifelines" target="sst.geo.ln.communication">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e241" source="sst.geo.lifelines" target="sst.geo.ln.trade_tourism">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e242" source="sst.pol.power_sharing" target="sst.pol.ps.forms">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e243" source="sst.pol.power_sharing" target="sst.pol.ps.why">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e244" source="sst.pol.federalism" target="sst.pol.fed.division_powers">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e245" source="sst.pol.federalism" target="sst.pol.fed.decentralisation">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e246" source="sst.pol.gender_religion_caste" target="sst.pol.grc.social_divisions">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e247" source="sst.pol.gender_religion_caste" target="sst.pol.grc.gender">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e248" source="sst.pol.gender_religion_caste" target="sst.pol.grc.communalism">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e249" source="sst.pol.gender_religion_caste" target="sst.pol.grc.caste">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e250" source="sst.pol.political_parties" target="sst.pol.pp.functions">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e251" source="sst.pol.political_parties" target="sst.pol.pp.party_systems">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e252" source="sst.pol.political_parties" target="sst.pol.pp.challenges">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e253" source="sst.pol.outcomes_democracy" target="sst.pol.od.accountability">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e254" source="sst.pol.outcomes_democracy" target="sst.pol.od.economic_outcomes">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e255" source="sst.pol.outcomes_democracy" target="sst.pol.od.dignity_freedom">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e256" source="sst.eco.development" target="sst.eco.dev.indicators">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e257" source="sst.eco.development" target="sst.eco.dev.hdi_sustainability">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e258" source="sst.eco.development" target="sst.eco.dev.public_facilities">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e259" source="sst.eco.sectors" target="sst.eco.sec.primary_secondary_tertiary">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e260" source="sst.eco.sectors" target="sst.eco.sec.employment">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e261" source="sst.eco.sectors" target="sst.eco.sec.public_private">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e262" source="sst.eco.money_credit" target="sst.eco.mc.money">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e263" source="sst.eco.money_credit" target="sst.eco.mc.banks">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e264" source="sst.eco.money_credit" target="sst.eco.mc.credit_terms">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e265" source="sst.eco.money_credit" target="sst.eco.mc.shg">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e266" source="sst.eco.globalisation" target="sst.eco.glob.what">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e267" source="sst.eco.globalisation" target="sst.eco.glob.factors">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e268" source="sst.eco.globalisation" target="sst.eco.glob.mnc_production">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e269" source="sst.eco.globalisation" target="sst.eco.glob.wto">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e270" source="sst.eco.globalisation" target="sst.eco.glob.fair">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e271" source="sst.eco.consumer_rights" target="sst.eco.cr.rights">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e272" source="sst.eco.consumer_rights" target="sst.eco.cr.redressal">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e273" source="sst.eco.consumer_rights" target="sst.eco.cr.standards">
+      <data key="e0">contains</data>
+    </edge>
+    <edge id="e274" source="math.statistics" target="sci.env.waste_management">
+      <data key="e0">related_to</data>
+      <data key="e1">0.200</data>
+      <data key="e2">Interpreting environmental data and trends</data>
+    </edge>
+    <edge id="e275" source="math.coordinate_geometry" target="sci.elec.ohms_law">
+      <data key="e0">applies_to</data>
+      <data key="e1">0.300</data>
+      <data key="e2">Graphing V-I characteristics uses coordinate plots</data>
+    </edge>
+    <edge id="e276" source="math.triangles.similarity" target="sci.phy.reflection_curved">
+      <data key="e0">related_to</data>
+      <data key="e1">0.200</data>
+      <data key="e2">Ray diagrams leverage geometric reasoning</data>
+    </edge>
+    <edge id="e277" source="math.trigonometry" target="sci.phy.human_eye">
+      <data key="e0">related_to</data>
+      <data key="e1">0.200</data>
+      <data key="e2">Optics problems often use geometric/trig reasoning</data>
+    </edge>
+    <edge id="e278" source="sci.env.ecosystem" target="sst.geo.forest_wildlife">
+      <data key="e0">related_to</data>
+      <data key="e1">0.700</data>
+      <data key="e2">Ecosystems underpin biodiversity and conservation</data>
+    </edge>
+    <edge id="e279" source="sci.env.ecosystem" target="sst.geo.water_resources">
+      <data key="e0">related_to</data>
+      <data key="e1">0.600</data>
+      <data key="e2">Ecosystem health relates to water resources</data>
+    </edge>
+    <edge id="e280" source="sci.env.ozone_depletion" target="sst.geo.resources_development">
+      <data key="e0">related_to</data>
+      <data key="e1">0.300</data>
+      <data key="e2">Sustainability links environment and development</data>
+    </edge>
+    <edge id="e281" source="sci.chem.metals_nonmetals" target="sst.geo.manufacturing">
+      <data key="e0">related_to</data>
+      <data key="e1">0.400</data>
+      <data key="e2">Materials science connects to industrial processes</data>
+    </edge>
+    <edge id="e282" source="sci.elec.power" target="sst.geo.minerals_energy">
+      <data key="e0">related_to</data>
+      <data key="e1">0.500</data>
+      <data key="e2">Energy resources and electricity consumption are linked</data>
+    </edge>
+    <edge id="e283" source="math.statistics" target="sst.eco.dev.indicators">
+      <data key="e0">applies_to</data>
+      <data key="e1">0.700</data>
+      <data key="e2">Development indicators require statistical interpretation</data>
+    </edge>
+    <edge id="e284" source="math.statistics" target="sst.eco.sectors">
+      <data key="e0">applies_to</data>
+      <data key="e1">0.400</data>
+      <data key="e2">Sectoral employment data uses statistics</data>
+    </edge>
+    <edge id="e285" source="math.probability" target="sst.eco.money_credit">
+      <data key="e0">related_to</data>
+      <data key="e1">0.200</data>
+      <data key="e2">Risk/uncertainty ideas connect to credit decisions</data>
+    </edge>
+    <edge id="e286" source="math.areas_related_circles" target="sst.geo.resources_development">
+      <data key="e0">related_to</data>
+      <data key="e1">0.200</data>
+      <data key="e2">Area calculations support resource/land analysis</data>
+    </edge>
+    <edge id="e287" source="sst.hist.global_world" target="sst.eco.globalisation">
+      <data key="e0">related_to</data>
+      <data key="e1">0.800</data>
+      <data key="e2">Historical global integration connects to modern globalisation</data>
+    </edge>
+    <edge id="e288" source="sst.geo.lifelines" target="sst.eco.globalisation">
+      <data key="e0">related_to</data>
+      <data key="e1">0.600</data>
+      <data key="e2">Transport and communication enable globalisation</data>
+    </edge>
+    <edge id="e289" source="sst.geo.manufacturing" target="sst.eco.globalisation">
+      <data key="e0">related_to</data>
+      <data key="e1">0.400</data>
+      <data key="e2">Industrial production links to global trade</data>
+    </edge>
+    <edge id="e290" source="sst.eco.development" target="sst.eco.sectors">
+      <data key="e0">prerequisite</data>
+      <data key="e1">0.500</data>
+      <data key="e2">Understanding development links to sectoral contributions and jobs</data>
+    </edge>
+    <edge id="e291" source="sst.eco.sectors" target="sst.eco.money_credit">
+      <data key="e0">related_to</data>
+      <data key="e1">0.300</data>
+      <data key="e2">Employment/income link to financial inclusion and credit</data>
+    </edge>
+    <edge id="e292" source="sst.eco.money_credit" target="sst.eco.consumer_rights">
+      <data key="e0">related_to</data>
+      <data key="e1">0.300</data>
+      <data key="e2">Financial services involve consumer awareness</data>
+    </edge>
+    <edge id="e293" source="sst.pol.power_sharing" target="sst.pol.federalism">
+      <data key="e0">related_to</data>
+      <data key="e1">0.700</data>
+      <data key="e2">Federalism is a form of vertical power-sharing</data>
+    </edge>
+    <edge id="e294" source="sst.pol.gender_religion_caste" target="sst.pol.outcomes_democracy">
+      <data key="e0">related_to</data>
+      <data key="e1">0.400</data>
+      <data key="e2">Social divisions shape democratic outcomes</data>
+    </edge>
+    <edge id="e295" source="sst.geo.resources_development" target="sst.geo.water_resources">
+      <data key="e0">related_to</data>
+      <data key="e1">0.400</data>
+      <data key="e2">Water is a key resource requiring planning</data>
+    </edge>
+    <edge id="e296" source="sst.geo.water_resources" target="sst.geo.agriculture">
+      <data key="e0">related_to</data>
+      <data key="e1">0.500</data>
+      <data key="e2">Agriculture depends strongly on water availability</data>
+    </edge>
+    <edge id="e297" source="sst.geo.minerals_energy" target="sst.geo.manufacturing">
+      <data key="e0">related_to</data>
+      <data key="e1">0.500</data>
+      <data key="e2">Energy and minerals are inputs for industry</data>
+    </edge>
+    <edge id="e298" source="sst.geo.lifelines" target="sst.geo.manufacturing">
+      <data key="e0">related_to</data>
+      <data key="e1">0.400</data>
+      <data key="e2">Transport enables movement of industrial goods</data>
+    </edge>
+    <edge id="e299" source="sst.hist.industrialisation" target="sst.geo.manufacturing">
+      <data key="e0">related_to</data>
+      <data key="e1">0.400</data>
+      <data key="e2">Historical industrialisation informs modern industry patterns</data>
+    </edge>
+    <edge id="e300" source="sst.hist.print_culture" target="sst.pol.political_parties">
+      <data key="e0">related_to</data>
+      <data key="e1">0.200</data>
+      <data key="e2">Mass communication and political mobilisation</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,6 @@
+.next/dev/types/routes.d.ts(96,1): error TS1435: Unknown keyword or identifier. Did you mean 'out'?
+.next/dev/types/routes.d.ts(96,7): error TS1128: Declaration or statement expected.
+.next/dev/types/routes.d.ts(99,1): error TS1128: Declaration or statement expected.
+.next/dev/types/validator.ts(278,8): error TS1005: ';' expected.
+.next/dev/types/validator.ts(278,10): error TS1002: Unterminated string literal.
+.next/dev/types/validator.ts(282,1): error TS1128: Declaration or statement expected.

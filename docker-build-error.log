@@ -1,0 +1,104 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.45kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:20-alpine
+#2 ...
+
+#3 [auth] library/node:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:20-alpine
+#2 DONE 3.6s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 630B done
+#4 DONE 0.0s
+
+#5 [base 1/1] FROM docker.io/library/node:20-alpine@sha256:09e2b3d9726018aecf269bd35325f46bf75046a643a66d28360ec71132750ec8
+#5 resolve docker.io/library/node:20-alpine@sha256:09e2b3d9726018aecf269bd35325f46bf75046a643a66d28360ec71132750ec8 0.0s done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 12.85kB 0.0s done
+#6 DONE 0.1s
+
+#7 [builder 1/4] WORKDIR /app
+#7 CACHED
+
+#8 [deps 1/4] RUN apk add --no-cache libc6-compat
+#8 CACHED
+
+#9 [deps 3/4] COPY package.json package-lock.json* ./
+#9 CACHED
+
+#10 [deps 2/4] WORKDIR /app
+#10 CACHED
+
+#11 [deps 4/4] RUN npm ci
+#11 CACHED
+
+#12 [builder 2/4] COPY --from=deps /app/node_modules ./node_modules
+#12 CACHED
+
+#13 [builder 3/4] COPY . .
+#13 DONE 0.1s
+
+#14 [builder 4/4] RUN npm run build
+#14 0.698 
+#14 0.698 > streets-v3@0.1.0 build
+#14 0.698 > next build
+#14 0.698 
+#14 1.619 Γû▓ Next.js 16.1.6 (Turbopack)
+#14 1.619 
+#14 1.659   Creating an optimized production build ...
+#14 11.07 Γ£ô Compiled successfully in 8.8s
+#14 11.07   Running TypeScript ...
+#14 18.09   Collecting page data using 7 workers ...
+#14 19.07 ΓÜá Using edge runtime on a page currently disables static generation for that page
+#14 19.09   Generating static pages using 7 workers (0/25) ...
+#14 19.13   Generating static pages using 7 workers (6/25) 
+#14 19.24   Generating static pages using 7 workers (12/25) 
+#14 19.41 Error occurred prerendering page "/auth/login". Read more: https://nextjs.org/docs/messages/prerender-error
+#14 19.42 Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+#14 19.42 
+#14 19.42 Check your Supabase project's API settings to find these values
+#14 19.42 
+#14 19.42 https://supabase.com/dashboard/project/_/settings/api
+#14 19.42     at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+#14 19.42     at m.global.fetch (.next/server/chunks/ssr/_6985638d._.js:35:482)
+#14 19.42     at bv (.next/server/chunks/ssr/_6985638d._.js:39:57) {
+#14 19.42   digest: '3687920304'
+#14 19.42 }
+#14 19.42 Export encountered an error on /auth/login/page: /auth/login, exiting the build.
+#14 19.45 Γ¿» Next.js build worker exited with code: 1 and signal: null
+#14 19.50 npm notice
+#14 19.50 npm notice New major version of npm available! 10.8.2 -> 11.11.0
+#14 19.50 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.0
+#14 19.50 npm notice To update run: npm install -g npm@11.11.0
+#14 19.50 npm notice
+#14 ERROR: process "/bin/sh -c npm run build" did not complete successfully: exit code: 1
+------
+ > [builder 4/4] RUN npm run build:
+19.42     at bv (.next/server/chunks/ssr/_6985638d._.js:39:57) {
+19.42   digest: '3687920304'
+19.42 }
+19.42 Export encountered an error on /auth/login/page: /auth/login, exiting the build.
+19.45 Γ¿» Next.js build worker exited with code: 1 and signal: null
+19.50 npm notice
+19.50 npm notice New major version of npm available! 10.8.2 -> 11.11.0
+19.50 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.0
+19.50 npm notice To update run: npm install -g npm@11.11.0
+19.50 npm notice
+------
+Dockerfile:30
+--------------------
+  28 |     ENV NEXT_TELEMETRY_DISABLED=1
+  29 |     
+  30 | >>> RUN npm run build
+  31 |     
+  32 |     # ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/sh -c npm run build" did not complete successfully: exit code: 1
